@@ -13,6 +13,10 @@ public class SBAccount implements Account{
         return this;
     }
 
+    public void display(String msg){
+        System.out.println("Our message ... "+msg);
+    }
+
     @Override
     public void showAccountDetails(Account a) {
         System.out.println("Account details");
